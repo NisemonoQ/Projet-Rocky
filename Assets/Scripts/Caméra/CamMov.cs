@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class CamMov : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Transform target;
+    public Vector3 offset;
+    public float damping;
+
+    Vector3 velocity = Vector3.zero;
+
+    private void Awake()
     {
-        
+        offset = transform.position - target.position;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        Vector3 movPos = target.position + offset;
+        transform.position = Vector3.SmoothDamp(transform.position, movPos, ref velocity, damping);
     }
 }
