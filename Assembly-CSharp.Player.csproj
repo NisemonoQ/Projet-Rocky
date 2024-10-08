@@ -846,6 +846,10 @@
       <Project>{D00571DE-E8ED-F85F-E980-868FA343BD7C}</Project>
       <Name>Unity.VisualScripting.State.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Cinemachine.Player.csproj">
+      <Project>{9013AC79-D2A0-4C7F-B6CC-94A09D7F9366}</Project>
+      <Name>Cinemachine.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
       <Project>{F680194F-4FA3-F3DC-939B-EF7153817DD9}</Project>
       <Name>Unity.VisualScripting.Flow.Player</Name>

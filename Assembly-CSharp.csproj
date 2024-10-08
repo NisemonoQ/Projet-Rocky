@@ -914,6 +914,10 @@
       <Project>{F6F70B55-3E02-B19A-72C0-D78C98BE3033}</Project>
       <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{4FAAB4D7-1353-B020-D96C-385674EAA9EC}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Performance.Profile-Analyzer.Editor.csproj">
       <Project>{5EBFE33A-5400-E010-E74B-FD6E0E05B9B4}</Project>
       <Name>Unity.Performance.Profile-Analyzer.Editor</Name>
@@ -977,6 +981,10 @@
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{A908EFD7-DE2D-AE49-8995-D063D3FD04D5}</Project>
       <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{D901D837-5BA5-1413-0388-1930FBBD4958}</Project>
+      <Name>Cinemachine</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
       <Project>{65ADE179-597C-0B0D-39EF-CEC5E928E9BE}</Project>
